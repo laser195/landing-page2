@@ -1,0 +1,69 @@
+#parx{ 
+    padding:5em 5em;
+
+    .jarallax {
+        background-image: url('img/Untitled-1.jpg');
+        position: relative;
+        z-index: 0;
+        display: grid;
+        align-items: center;
+        height: 20vw;
+
+    }
+    
+    .text {
+        color: #fff;
+        margin-left: 10vw;
+        z-index: 10;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    
+    .jarallax:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+        
+}
+@media only screen and (max-width: 600px){
+     
+    #parx{ 
+        margin: -68px;
+    
+        .jarallax {
+            object-fit:contain;
+            position: relative;
+            z-index: 0;
+            display: grid;
+            align-items: center;
+            height: 40vw;
+            width: 100%;
+    
+        }
+        
+        .text {
+            color: #fff;
+            margin-left: 10vw;
+            z-index: 10;
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+        
+        .jarallax:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+            
+    }
+
+}

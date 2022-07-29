@@ -1,0 +1,24 @@
+@import '_var.scss','_nav.scss','_sec1','_third','_fourth.scss',"mob.scss","_parx.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1ecec;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        display: flex;
+         flex-direction: column};
+
+         .wrapper{
+            img{
+                width: 70%;
+            }
+         }
+}

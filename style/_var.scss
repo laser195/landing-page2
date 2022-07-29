@@ -1,0 +1,13 @@
+$orange-p: #F47820;
+$orange-s: #F7A56A;
+$prim-g-hover: linear-gradient(to right, #3b1daa , #1d45e2);
+$prim-g:linear-gradient(to right, #ff2600,#e2d51d);
+$prim-g2:linear-gradient(to left, #ff2600,#e2d51d);
+
+@mixin card-hover {
+    color: #fff;
+     background: $prim-g-hover;
+  p{
+    color: #fff;
+  }
+}
